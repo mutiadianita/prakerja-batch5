@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        .left {
+            flex: 1;
+            background-color: blue;
+            color: white;
+            padding:40px;
+            border-radius: 20px;
+        }
+        .right {
+            flex: 2;
+            background-color: red;
+            color: white;
+            padding:40px;
+        }
+        @media (min-width: 576px) {
+            .container {
+                flex-direction: row;
+            }
+            .left {
+                background-color: green;
+            }
+            .right {
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items). It also includes history, demos, patterns, and a browser support chart.</div>
+        <div class="right">Our comprehensive guide to CSS flexbox layout. This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items). It also includes history, demos, patterns, and a browser support chart.</div>
+    </div>
+</body>
+</html>

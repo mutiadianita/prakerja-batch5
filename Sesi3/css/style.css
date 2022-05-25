@@ -1,0 +1,18 @@
+h3 {
+    color: orange;
+}
+/* Selector Class */
+.teks-hijau {
+    color: green;
+}
+.bg-kuning {
+    background-color: yellow;
+}
+/* Selector ID  */
+#judul2 {
+    color: red;
+    background-color: rosybrown;
+}
+.artikel h1 {
+    color: purple;
+}
